@@ -43,21 +43,21 @@
 
 > python .\assign.py .\test1.txt
 
-This file (test1.txt) has the given users and their requested team members and requested exclusion members
-
-djcran djcran-vkvats-nthakurd sahmaini
-sahmaini sahmaini _
-sulagaop sulagaop-xxx-xxx _
-fanjun fanjun-xxx nthakurd
-nthakurd nthakurd djcran,fanjun
-vkvats vkvats-sahmaini _
+This file (test1.txt) has the given users and their requested team members and requested exclusion members<br>
+<br>
+djcran djcran-vkvats-nthakurd sahmaini<br>
+sahmaini sahmaini _<br>
+sulagaop sulagaop-xxx-xxx _<br>
+fanjun fanjun-xxx nthakurd<br>
+nthakurd nthakurd djcran,fanjun<br>
+vkvats vkvats-sahmaini _<br>
 
 
 #### OUTPUT - 
 
 // --[ Initial Solution has all teams as individual member  ]--
 
------ Latest solution:
+----- Latest solution:<br>
 djcran<br>
 sahmaini<br>
 sulagaop<br>
@@ -69,7 +69,7 @@ Assignment cost: 26
 
 // --[ This will continue till the program gets optimal solution with least assignment amount, like this input value (test1.txt) gets the optimal solution as 4 teams and the assignment cost is 24]--
 
------ Latest solution:
+----- Latest solution:<br>
 sahmaini<br>
 fanjun<br>
 nthakurd<br>
